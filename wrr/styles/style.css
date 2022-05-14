@@ -31,9 +31,11 @@ nav a:hover {
 }
 .book, .join {
     background-color: #051923;
+    color:whitesmoke;
 }
 .book:hover, .join:hover {
     background-color: #051923;
+    color:whitesmoke;
 }
 .msg {
     background-color: #051923;
@@ -42,4 +44,25 @@ footer {
     background-color: #6A7152;
     color: white;
     text-align: center;
+}
+.home-title{
+    color:whitesmoke;
+}
+h4{
+    color:whitesmoke;
+}
+.msg h2{
+    color:black;
+}
+.msg p{
+    color:black;
+}
+footer h3{
+    color:black;
+}
+footer a{
+    color:black;
+}
+footer a:hover{
+    color:black;
 }
