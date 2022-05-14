@@ -6,6 +6,9 @@
     height: 725px;
     background-color: #98EBEC; 
 }
+.icon {
+    width: 80px;
+}
 nav a {
     text-align: center;
     color: black;
