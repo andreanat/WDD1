@@ -14,3 +14,8 @@ header {
 nav a:hover {
     background-color: black;
 }
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
