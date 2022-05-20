@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+:root{
+    --heading-font: "Bebas Neue";
+    --paragraph-font: Oswald, Helvetica, sans-serif;
+}
 #content{
     width: 1600px;
     margin: 0 auto;
@@ -8,11 +13,19 @@
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.logo{
+    width: 80px;
+}
+#logo_link {
+    padding: 5px;
 }
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -25,6 +38,13 @@ main section {
 }
 body {
     background-color: #247BA0; 
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #6A7152;
@@ -37,6 +57,10 @@ nav a:hover {
     background-color: #051923;
     color:whitesmoke;
     text-decoration: none;
+    font-size: 2em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #051923;
@@ -44,23 +68,33 @@ nav a:hover {
 }
 .msg {
     background-color: #051923;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #6A7152;
     color: white;
     text-align: center;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:whitesmoke;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:whitesmoke;
 }
 .msg h2{
     color:black;
+    font-family: var(--heading-font);
 }
 .msg p{
     color:black;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 footer h3{
     color:black;
@@ -72,4 +106,16 @@ footer a{
 footer a:hover{
     color:black;
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+       margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
