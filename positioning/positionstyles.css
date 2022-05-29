@@ -161,11 +161,14 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
 }
 .red6 {
-  width: 100px; 
+  width: 300px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/3;
+  grid-row: 1/3;
 } 
 .green6 {
   width: 100px; 
@@ -174,13 +177,19 @@
 } 
 .yellow6 {
   width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  height: 300px; 
+  background-color: gold;
+  margin: 70px; 
+  grid-column: 1/3;
+  grid-row: 1/3;
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 300px; 
   background-color: blue; 
+  margin: 30px;
+  grid-column: 1/3;
+  grid-row: 1/3;
 } 
 
 
