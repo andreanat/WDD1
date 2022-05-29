@@ -1,7 +1,7 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity styles */
 .content1 {
-  /* This the parent of the activity 1 boxes. */
+  /* This the parent  the activity 1 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
