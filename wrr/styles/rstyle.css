@@ -163,18 +163,17 @@ nav {
     width: 100%;
 }
 .rivers-idaho{
-    grid-column: 2/3;
-    grid-row: 2/4;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 .rivers-arizona{
-    grid-column: 2/3;
-    grid-row: 5/7;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 .rivers-utah{
-    grid-column: 2/3;
-    grid-row: 8/10;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
-
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
