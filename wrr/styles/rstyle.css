@@ -162,6 +162,18 @@ nav {
 .card-img, .mountains {
     width: 100%;
 }
+.rivers-idaho{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.rivers-arizona{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.rivers-utah{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
